@@ -1815,7 +1815,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/red_wall.jpeg);
+	background: url(../Special_files/background/joshua-earle-133254-unsplash.jpg);
 	/*background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .6);
 	background-blend-mode: overlay;
@@ -1827,6 +1827,9 @@ footer .cop span {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
+	background-color: rgba(0, 0, 0, .7);
+	background-blend-mode: overlay;
+
 }
 
 .demo-1 #particles-js {
