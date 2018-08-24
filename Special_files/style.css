@@ -1106,80 +1106,59 @@ box-shadow:0 0 60px 5px black;
 	-webkit-transform:translate(-50%,-11px) rotateX(90deg) translateY(220px) translateZ(-30px);
 }
 
+@media (min-width: 1200px) {
 
+.bgimg {
+        background-image: url('./Special_files/background/black-burn-burning.jpg');
+        background-repeat: no-repeat;
+        /*height: 800px;
+        width: 1000px;*/
+        background-size:100% auto;
+    }
 
-
-/*.loading {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #000;
-	z-index: 9999999999999
 }
 
-.spinner {
-	margin: 50vh auto;
-	width: 50px;
-	height: 40px;
-	text-align: center;
-	font-size: 10px
+/*Hide in Other Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+      .bgimg {
+        background-image: none;
+    }
+
 }
 
-.spinner>div {
-	background-color: #fff;
-	height: 100%;
-	width: 4px;
-	display: inline-block;
-	-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
-	animation: sk-stretchdelay 1.2s infinite ease-in-out
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
 }
 
-.spinner .rect2 {
-	-webkit-animation-delay: -1.1s;
-	animation-delay: -1.1s
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
 }
 
-.spinner .rect3 {
-	-webkit-animation-delay: -1s;
-	animation-delay: -1s
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
 }
 
-.spinner .rect4 {
-	-webkit-animation-delay: -.9s;
-	animation-delay: -.9s
-}
 
-.spinner .rect5 {
-	-webkit-animation-delay: -.8s;
-	animation-delay: -.8s
-}
 
-@-webkit-keyframes sk-stretchdelay {
-	0%,
-	100%,
-	40% {
-		-webkit-transform: scaleY(.4)
-	}
-	20% {
-		-webkit-transform: scaleY(1)
-	}
-}
-
-@keyframes sk-stretchdelay {
-	0%,
-	100%,
-	40% {
-		transform: scaleY(.4);
-		-webkit-transform: scaleY(.4)
-	}
-	20% {
-		transform: scaleY(1);
-		-webkit-transform: scaleY(1)
-	}
-}
-*/
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
