@@ -82,6 +82,16 @@ h6 {
 	margin-bottom: 0
 }
 
+.navbar-brand 
+ { font-family: "Mr De Haviland"; font-size: 50px;
+	margin-left:50px; 
+ 	font-style: normal;
+ 	font-variant: normal;
+    font-weight: 900
+     word-spacing: 10px;
+} 
+
+
 img {
 	width: 100%
 }
@@ -1269,13 +1279,14 @@ body {
 	margin: auto
 }
 
-.header .caption h2 {
-	font-family: Times New Roman , sans-serif;
-	font-weight: 300;
-	text-shadow: 2px 4px 3px rgba(0, 0, 0, .10);
-	font-size: 5em;
-	color: white;
-	margin-top: 5px
+.header .caption h2 
+	{ font-family: "Aladin"; 
+	  font-style: normal; font-variant: normal;  
+	  font-weight: 300;
+	  text-shadow: 2px 4px 3px rgba(0, 0, 0, .10);
+	  font-size: 5em;
+	  color: white;
+	  margin-top: 5px
 }
 
 .header .caption h4 {
@@ -1815,7 +1826,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/joshua-earle-133254-unsplash.jpg);
+	background: url(../Special_files/background/turing.jpg);
 	/*background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .6);
 	background-blend-mode: overlay;
