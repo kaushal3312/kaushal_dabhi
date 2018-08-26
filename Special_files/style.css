@@ -1279,7 +1279,7 @@ body {
 }
 
 .header .caption {
-	margin: auto
+
 }
 
 .header .caption h2 
@@ -1289,7 +1289,7 @@ body {
 	  text-shadow: 2px 4px 3px rgba(0, 0, 0, .10);
 	  font-size: 5em;
 	  color: white;
-	  margin-top: 180px
+	  margin-top: 10px		  
 }
 
 .header .caption h4 {
@@ -1829,7 +1829,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/BszdDY4-full-black-wallpaper.jpg);
+	background: url(../Special_files/background/pexels-photo.jpeg);
 	/*background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .6);
 	background-blend-mode: overlay;
@@ -1841,7 +1841,7 @@ footer .cop span {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, .7);
 	background-blend-mode: overlay;
 
 }
