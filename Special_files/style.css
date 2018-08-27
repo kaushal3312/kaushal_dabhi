@@ -1410,43 +1410,153 @@ body {
 	z-index: 2
 }
 
-.main-timeline8{overflow:hidden;position:relative}
-.main-timeline8:after,.main-timeline8:before{content:"";display:block;width:100%;clear:both}
-.main-timeline8:before{content:"";width:3px;height:100%;background:#d6d5d5;position:absolute;top:30px;left:50%}
-.main-timeline8 .timeline{width:50%;float:left;padding-right:30px;position:relative}
-.main-timeline8 .timeline-icon{width:32px;height:32px;border-radius:50%;background:#fff;border:3px solid #fe6847;position:absolute;top:5.5%;right:-17.5px}
-.main-timeline8 .year{display:block;padding:10px;margin:0;font-size:30px;color:#fff;border-radius:0 50px 50px 0;background:#fe6847;text-align:center;position:relative}
-.main-timeline8 .year:before{content:"";border-top:35px solid #f59c8b;border-left:35px solid transparent;position:absolute;bottom:-35px;left:0}
-.main-timeline8 .timeline-content{padding:30px 20px;margin:0 45px 0 35px;background:#f2f2f2}
-.main-timeline8 .title{font-size:19px;font-weight:700;color:#504f54;margin:0 0 10px}
-.main-timeline8 .description{font-size:14px;color:#7d7b7b;margin:0}
-.main-timeline8 .timeline:nth-child(2n){padding:0 0 0 30px}
-.main-timeline8 .timeline:nth-child(2n) .timeline-icon{right:auto;left:-14.5px}
-.main-timeline8 .timeline:nth-child(2n) .year{border-radius:50px 0 0 50px;background:#7eda99}
-.main-timeline8 .timeline:nth-child(2n) .year:before{border-left:none;border-right:35px solid transparent;left:auto;right:0}
-.main-timeline8 .timeline:nth-child(2n) .timeline-content{text-align:right;margin:0 35px 0 45px}
-.main-timeline8 .timeline:nth-child(2){margin-top:170px}
-.main-timeline8 .timeline:nth-child(odd){margin:-175px 0 0}
-.main-timeline8 .timeline:nth-child(even){margin-bottom:80px}
-.main-timeline8 .timeline:first-child,.main-timeline8 .timeline:last-child:nth-child(even){margin:0}
-.main-timeline8 .timeline:nth-child(2n) .timeline-icon{border-color:#7eda99}
-.main-timeline8 .timeline:nth-child(2n) .year:before{border-top-color:#92efad}
-.main-timeline8 .timeline:nth-child(3n) .timeline-icon{border-color:#8a5ec1}
-.main-timeline8 .timeline:nth-child(3n) .year{background:#8a5ec1}
-.main-timeline8 .timeline:nth-child(3n) .year:before{border-top-color:#a381cf}
-.main-timeline8 .timeline:nth-child(4n) .timeline-icon{border-color:#f98d9c}
-.main-timeline8 .timeline:nth-child(4n) .year{background:#f98d9c}
-.main-timeline8 .timeline:nth-child(4n) .year:before{border-top-color:#f2aab3}
-@media only screen and (max-width:767px){.main-timeline8{overflow:visible}
-.main-timeline8:before{top:0;left:0}
-.main-timeline8 .timeline:nth-child(2),.main-timeline8 .timeline:nth-child(even),.main-timeline8 .timeline:nth-child(odd){margin:0}
-.main-timeline8 .timeline{width:100%;float:none;padding:0 0 0 30px;margin-bottom:20px!important}
-.main-timeline8 .timeline:last-child{margin:0!important}
-.main-timeline8 .timeline-icon{right:auto;left:-14.5px}
-.main-timeline8 .year{border-radius:50px 0 0 50px}
-.main-timeline8 .year:before{border-left:none;border-right:35px solid transparent;left:auto;right:0}
-.main-timeline8 .timeline-content{margin:0 35px 0 45px}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+  background: white;
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: black;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: white;
+  border-style: solid;
+  
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+
 
 /*.services {
 	position: relative;
