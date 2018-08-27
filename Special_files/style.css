@@ -1319,13 +1319,14 @@ body {
 }
 
 .about .part-photo {
-	position: relative
+	position: relative;
+	margin-top:90px
 }
 
 .about .part-photo::after {
 	content: "";
 	position: absolute;
-	top: 15px;
+	top: 25px;
 	left: 15px;
 	right: 15px;
 	bottom: 15px;
@@ -1333,8 +1334,8 @@ body {
 }
 
 .about .info p {
-	padding-bottom: 20px;
-	border-bottom: 1px solid #e2e2e2
+	padding-bottom: 10px;
+	border-bottom: 1px solid 
 }
 
 .about .info h4 {
