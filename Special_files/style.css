@@ -1278,6 +1278,9 @@ body {
 	background-blend-mode: overlay
 }
 
+.header .caption { margin-top: 80px; }
+
+
 
 .header .caption h2 
 	{ font-family: "Aladin"; 
@@ -1514,7 +1517,7 @@ time {
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
+
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
@@ -1522,10 +1525,10 @@ time {
   .timeline ul li:nth-child(even) div {
     left: -289px;
     /*250+45-6*/
-/*  }
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
   .timeline ul li {
     margin-left: 20px;
   }
@@ -1540,7 +1543,7 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
-}*/
+}
 
 
 .portfolio .filtering {
@@ -1875,7 +1878,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/Lighthouse-Wallpaper.jpg);
+	background: url(../Special_files/background/amoled.jpg);
 	background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
@@ -1887,7 +1890,7 @@ footer .cop span {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
 
 }
