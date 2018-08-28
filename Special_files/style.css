@@ -1527,7 +1527,7 @@ time {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .timeline ul li {
     margin-left: 20px;
   }
@@ -1538,7 +1538,7 @@ time {
     left: 45px;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: -15px;
+    /*left: -15px;*/
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
