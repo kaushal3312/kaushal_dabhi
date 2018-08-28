@@ -1501,7 +1501,7 @@ time {
 }
 
 .timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
