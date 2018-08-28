@@ -1274,13 +1274,10 @@ body {
 	/*background: url(./Special_files/background/adult-anger-angry.jpg) no-repeat;*/
 	background-size: cover;
 	background-attachment: fixed;
-	background-color: rgba(0, 0, 0, .8);
+	/*background-color: rgba(0, 0, 0, .8);*/
 	background-blend-mode: overlay
 }
 
-.header .caption {
-
-}
 
 .header .caption h2 
 	{ font-family: "Aladin"; 
@@ -1289,14 +1286,15 @@ body {
 	  text-shadow: 2px 4px 3px rgba(0, 0, 0, .10);
 	  font-size: 5em;
 	  color: white;
-	  margin-top: 10px		  
+	  margin: auto;		  
 }
 
 .header .caption h4 {
 	font-weight: 500;
 	text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
 	font-size: 1.8em;
-	color: #e2e2e2
+	color: #e2e2e2;
+	margin: auto;
 }
 
 .about {
@@ -1516,7 +1514,16 @@ time {
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/*
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+/*  }
+}
 
 @media screen and (max-width: 600px) {
   .timeline ul li {
@@ -1533,7 +1540,7 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
-}
+}*/
 
 
 .portfolio .filtering {
@@ -1868,14 +1875,14 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/turing.jpg);
-	/*background-attachment: fixed;
-	background-color: rgba(0, 0, 0, .6);
+	background: url(../Special_files/background/Lighthouse-Wallpaper.jpg);
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
 	background-size:100%; 
 	max-width: 100%;
 	-webkit-clip-path: none;
-	clip-path: none*/
+	clip-path: none
 	-webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
