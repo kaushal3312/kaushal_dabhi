@@ -37,18 +37,6 @@ ul {
 html {
 	font-size: 89.5%
 }
-/*
-@media all and (max-width:768px) {
-	html {
-		font-size: 82.25%
-	}
-}*/
-/*
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-	background: url(./Special_files/background/black-burn-burning.jpg) no-repeat center center fixed;
-}
-*/
-@media only screen and (max-width:960px){body{background:url('./Special_files/background/turing2.jpg');}}
 
 
 body {
@@ -1544,7 +1532,7 @@ time {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 81px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
