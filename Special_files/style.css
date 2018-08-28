@@ -1878,7 +1878,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/cubes_spheres_glass_shape.jpg);
+	background: url(../Special_files/background/cube_fire_dark_light_alloy.jpg);
 	background-attachment: fixed;
 	/*background-color: rgba(0, 0, 0, .100);*/
 	background-blend-mode: overlay;
@@ -1890,7 +1890,7 @@ footer .cop span {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, 0);
 	background-blend-mode: overlay;
 
 }
