@@ -34,7 +34,9 @@ $(function() {
         strings: [" CREATOR  ", "  ENGINEER ", "  DEVELOPER  " ," FROM THE OPEN SOURCE COMMUNITY " , "  PROGRAMMER  " , " FREELANCER " , "  BLOGGER  " , " AMIABLE " , "  GEEK  ", "  TECH FREAK  "],
         loop: true,
         startDelay: 1e3,
-        backDelay: 1500
+        backDelay: 1500,
+        typeSpeed: 70,
+        backSpeed:50
     });
     wind.on("scroll", function() {
         var bodyScroll = wind.scrollTop();
