@@ -1517,17 +1517,8 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 900px) {
-  .timeline ul li div {
-    width: 250px;
-  }
-  .timeline ul li:nth-child(even) div {
-    left: -289px;
-    /*250+45-6*/
-  }
-}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .timeline ul li {
     margin-left: 20px;
   }
@@ -1535,15 +1526,14 @@ time {
     width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
-    left: 15px;
+    left: 45px;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: -25px;
+    left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
 }
-
 
 
 .portfolio .filtering {
