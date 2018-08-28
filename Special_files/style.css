@@ -1530,16 +1530,16 @@ time {
 
 @media screen and (max-width: 500px) {
   .timeline ul li {
-    margin-left: 2px;
+    margin-left: 5px;
   }
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
-    left: 2px;
+    left: 5px;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: 2px;
+    left: 5px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
