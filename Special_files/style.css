@@ -1456,21 +1456,21 @@ body {
 }
 
 .timeline ul li:nth-child(odd) div {
-  left: auto;
+  left: 45px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
-  left: auto;
+  left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #F45B69 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-  left: auto;
+  left: -439px;
 }
 
 .timeline ul li:nth-child(even) div::before {
-  right: auto;
+  right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #F45B69;
 }
@@ -1485,8 +1485,8 @@ time {
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-.timeline ul li::after {
+
+/*.timeline ul li::after {
   transition: background .5s ease-in-out;
 }
 
@@ -1530,16 +1530,16 @@ time {
 
 @media screen and (max-width: 500px) {
   .timeline ul li {
-    margin-left: auto;
+    margin-left: 2px;
   }
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
-    left: auto;
+    left: 2px;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: auto;
+    left: 2px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
