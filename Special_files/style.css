@@ -1527,12 +1527,12 @@ time {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) { {
   .timeline ul li {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 81px);
+    width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
