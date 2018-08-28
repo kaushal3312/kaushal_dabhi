@@ -1271,7 +1271,7 @@ body {
 	position: relative;
 	max-width: 100%;
 	height: 100vh;
-	background: url(./Special_files/background/adult-anger-angry.jpg) no-repeat;
+	/*background: url(./Special_files/background/adult-anger-angry.jpg) no-repeat;*/
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .8);
@@ -1527,7 +1527,7 @@ time {
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) { {
+@media screen and (max-width: 500px) {
   .timeline ul li {
     margin-left: 20px;
   }
@@ -1546,106 +1546,6 @@ time {
 
 
 
-/*.services {
-	position: relative;
-	background: url(/img/a7bd936f0fbd45b45b9112baad7b227b9fd9aeaa/services.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-color: rgba(0, 0, 0, .8);
-	background-blend-mode: overlay
-}
-*/
-/*.services .servies-item {
-	position: relative;
-	padding: 15px
-}
-
-.services .servies-item::before {
-	position: absolute;
-	content: "";
-	height: 20px;
-	width: 20px;
-	border: 0 solid #03a9f4;
-	-webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-	top: 0;
-	left: 0;
-	border-top-width: 1px;
-	border-left-width: 1px
-}
-
-.services .servies-item::after {
-	position: absolute;
-	content: "";
-	height: 20px;
-	width: 20px;
-	border: 0 solid #03a9f4;
-	-webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-	top: 0;
-	right: 0;
-	border-top-width: 1px;
-	border-right-width: 1px
-}
-
-.services .servies-item:hover i {
-	-webkit-animation-name: hvr-ripple-out;
-	animation-name: hvr-ripple-out;
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s
-}
-
-.services .servies-item .bb::before {
-	position: absolute;
-	content: "";
-	height: 20px;
-	width: 20px;
-	border: 0 solid #03a9f4;
-	-webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-	bottom: 0;
-	left: 0;
-	border-bottom-width: 1px;
-	border-left-width: 1px
-}
-
-.services .servies-item .bb::after {
-	position: absolute;
-	content: "";
-	height: 20px;
-	width: 20px;
-	border: 0 solid #03a9f4;
-	-webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-	bottom: 0;
-	right: 0;
-	border-bottom-width: 1px;
-	border-right-width: 1px
-}
-
-.services .servies-item i {
-	margin-top: 30px;
-	font-size: 3rem;
-	color: #03a9f4
-}
-
-.services .servies-item h4 {
-	text-transform: uppercase;
-	margin: 20px 0;
-	color: #e2e2e2
-}
-
-.services .servies-item p {
-	color: #bfbfbf;
-	margin-bottom: 30px
-}
-*/
-/*@media (max-width:771px) {
-	.servies-item {
-		margin-top: 20px
-	}
-}
-*/
 .portfolio .filtering {
 	margin: auto
 }
@@ -1978,7 +1878,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/pexels-photo.jpeg);
+	background: url(../Special_files/background/turing.jpg);
 	/*background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .6);
 	background-blend-mode: overlay;
