@@ -1528,7 +1528,7 @@ time {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 100px) {
   .timeline ul li {
     margin-left: 20px;
   }
