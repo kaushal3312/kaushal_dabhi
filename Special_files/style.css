@@ -1535,10 +1535,10 @@ time {
     width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
-    left: 45px;
+    left: 65px;
   }
   .timeline ul li:nth-child(even) div::before {
-    /*left: -15px;*/
+    left: -25px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
