@@ -1528,18 +1528,18 @@ time {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .timeline ul li {
-    margin-left: 20px;
+    margin-left: auto;
   }
   .timeline ul li div {
-    /*width: calc(100vw - 91px);*/
+    width: calc(100vw - 91px);
   }
   .timeline ul li:nth-child(even) div {
-    left: 45px;
+    left: auto;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: -15px;
+    left: auto;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
@@ -1878,7 +1878,7 @@ footer .cop span {
 }
 
 .demo-1 {
-	background: url(../Special_files/background/amoled.jpg);
+	background: url(../Special_files/background/pexels-photo-426444.jpeg);
 	background-attachment: fixed;
 	background-color: rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
@@ -1890,7 +1890,7 @@ footer .cop span {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .8);
 	background-blend-mode: overlay;
 
 }
