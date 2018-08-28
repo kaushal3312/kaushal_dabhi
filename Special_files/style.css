@@ -1486,7 +1486,7 @@ time {
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/*.timeline ul li::after {
+.timeline ul li::after {
   transition: background .5s ease-in-out;
 }
 
@@ -1513,7 +1513,7 @@ time {
   visibility: visible;
   opacity: 1;
 }
-*/
+
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1880,7 +1880,7 @@ footer .cop span {
 .demo-1 {
 	background: url(../Special_files/background/abstract-art-black-and-white-125509.jpg);
 	background-attachment: fixed;
-	background-color: rgba(0, 0, 0, .5);
+	/*background-color: rgba(0, 0, 0, .2);*/
 	background-blend-mode: overlay;
 	background-size:100%; 
 	max-width: 100%;
