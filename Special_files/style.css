@@ -1254,7 +1254,7 @@ body {
 	}
 }
 
-/*@media (max-width:991px) {
+@media (max-width:991px) {
 	.active-1::before {
 		display: none
 	}
@@ -1262,7 +1262,7 @@ body {
 		display: none
 	}
 }
-*/
+
 .navbar.scrolling-navbar {
 	overflow: hidden!important
 }
@@ -1546,8 +1546,9 @@ time {
 }
 
 
+
 .portfolio .filtering {
-	margin: auto
+	margin: auto;
 }
 
 .portfolio .filtering .active-1 {
@@ -1653,7 +1654,7 @@ time {
 }
 
 .portfolio .gallery .item-img .item-img-sn .icon a {
-	display: inline-block;
+	display: inline;
 	font-size: 22px
 }
 
@@ -1695,7 +1696,7 @@ time {
 	z-index: 2
 }
 
-/*@media (max-width:660px) {
+@media (max-width:660px) {
 	.portfolio .filtering span {
 		padding: 6px 10px
 	}
@@ -1703,8 +1704,10 @@ time {
 		border-radius: 10px
 	}
 }
-*/
-.client {
+
+
+
+/*.client {
 	position: relative;
 	background: url(/img/a7bd936f0fbd45b45b9112baad7b227b9fd9aeaa/services.jpg) no-repeat;
 	background-size: cover;
@@ -1826,7 +1829,7 @@ time {
 .contact form .btn {
 	width: 50%
 }
-
+*/
 footer {
 	background: #1c2331!important;
 	padding: 50px 0
@@ -1840,7 +1843,7 @@ footer .cop h2 {
 	color: #797979;
 	padding: 10px 0
 }
-
+/*
 footer .cop .icon {
 	display: inline-block;
 	margin: 20px 10px;
@@ -1869,13 +1872,62 @@ footer .cop span {
 	display: block;
 	color: #d2d2d2
 }
-
+*//*
 .page-footer {
 	margin-top: 0!important;
 	padding-top: 40px;
 	background-color: #4285f4;
 	color: #fff
 }
+
+*/
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 12;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 50px;
+  height: 50px;
+  color: #74d4b3;
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: #77cc6d;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 10px;
+  height: 10px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
 
 .demo-1 {
 	background: url(../Special_files/background/cube_fire_dark_light.jpg);
