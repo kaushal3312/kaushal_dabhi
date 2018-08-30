@@ -1253,7 +1253,7 @@ body {
 		right: 50%
 	}
 }
-
+/*
 @media (max-width:991px) {
 	.active-1::before {
 		display: none
@@ -1262,7 +1262,7 @@ body {
 		display: none
 	}
 }
-
+*/
 .navbar.scrolling-navbar {
 	overflow: hidden!important
 }
@@ -1547,7 +1547,7 @@ time {
 
 
 
-.portfolio .filtering {
+/*.portfolio .filtering {
 	margin: auto;
 }
 
@@ -1704,131 +1704,6 @@ time {
 		border-radius: 10px
 	}
 }
-
-
-
-/*.client {
-	position: relative;
-	background: url(/img/a7bd936f0fbd45b45b9112baad7b227b9fd9aeaa/services.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-color: rgba(0, 0, 0, .8);
-	background-blend-mode: overlay
-}
-
-.client .title h3 {
-	color: #f7f7f7
-}
-
-.client span {
-	color: #03a9f4;
-	font-weight: 700;
-	font-size: 2.5rem;
-	margin-bottom: 2rem
-}
-
-.client .client-item {
-	padding-bottom: 1rem
-}
-
-.client .client-item p {
-	color: #d2d2d2;
-	margin-bottom: 1rem
-}
-
-.client .client-item h6 {
-	color: #03a9f4;
-	padding-bottom: .5rem
-}
-
-.client .client-item h5 {
-	color: #ccc
-}
-
-.client .owl-theme .owl-nav.disabled+.owl-dots {
-	bottom: 60px
-}
-
-.client .owl-theme .owl-nav.disabled+.owl-dots span {
-	height: 12px;
-	width: 4px;
-	border-radius: none
-}
-
-.client .owl-theme .owl-nav.disabled+.owl-dots .active span {
-	height: 16px;
-	background: #03a9f4
-}
-
-.blog h4 {
-	font-size: 1.2em;
-	font-weight: 600!important
-}
-
-.blog .data {
-	margin: 10px 0;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	color: #444
-}
-
-.blog .data span {
-	padding: 10px 15px 10px 0
-}
-
-.blog img {
-	width: 100%
-}
-
-.blog a {
-	color: #03a9f4
-}
-
-.contact {
-	background: #f7f7f7
-}
-
-.contact .contact-item {
-	position: relative;
-	padding-left: 45px;
-	margin: 30px 0
-}
-
-.contact .contact-item .c-icon {
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: inline-block;
-	background: #03a9f4;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
-	border-radius: 3px;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg)
-}
-
-.contact .contact-item .c-icon i {
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	color: #fff
-}
-
-.contact .contact-item .c-text {
-	display: inline-block!important
-}
-
-.contact .contact-item .c-text h5 {
-	color: #777;
-	font-size: 12px;
-	text-transform: uppercase;
-	padding-bottom: 5px
-}
-
-.contact form .btn {
-	width: 50%
-}
 */
 footer {
 	background: #1c2331!important;
@@ -1843,44 +1718,12 @@ footer .cop h2 {
 	color: #797979;
 	padding: 10px 0
 }
-/*
-footer .cop .icon {
-	display: inline-block;
-	margin: 20px 10px;
-	cursor: pointer
+
+footer .cop .title h3{
+
+	color:white;
 }
 
-footer .cop .icon .c-icon {
-	display: inline-block;
-	background: #1d1d1d;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
-	border-radius: 3px;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg)
-}
-
-footer .cop .icon .c-icon i {
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	color: #fff
-}
-
-footer .cop span {
-	display: block;
-	color: #d2d2d2
-}
-*//*
-.page-footer {
-	margin-top: 0!important;
-	padding-top: 40px;
-	background-color: #4285f4;
-	color: #fff
-}
-
-*/
 
 section #services {
   text-align: center;
@@ -1932,16 +1775,15 @@ section #services li span {
 .demo-1 {
 	background: url(../Special_files/background/cube_fire_dark_light.jpg);
 	background-attachment: fixed;
-	/*background-color: rgba(0, 0, 0, .100);*/
 	background-blend-mode: overlay;
 	background-size:100%; 
 	max-width: 100%;
 	-webkit-clip-path: none;
 	clip-path: none
-	-webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size:  100% 100%;
-    background-size:  100% 100%;
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size:  contain;
+    background-size:  contain;
 	background-color: rgba(0, 0, 0, 0);
 	background-blend-mode: overlay;
 
