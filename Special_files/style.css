@@ -1803,7 +1803,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 .demo-1 {
-	background: url(../Special_files/background/building_skyscraper.jpg);
+	background: url(../Special_files/background/pc_bg.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1828,7 +1828,7 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 .demo-1 {
-	background: url(../Special_files/background/building_skyscraper.jpg);
+	background: url(../Special_files/background/pc_bg.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1851,7 +1851,7 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-width : 1224px) {
 .demo-1 {
-	background: url(../Special_files/background/building_skyscraper.jpg);
+	background: url(../Special_files/background/pc_bg.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1873,7 +1873,7 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
 .demo-1 {
-	background: url(../Special_files/background/building_skyscraper.jpg);
+	background: url(../Special_files/background/pc_bg.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
