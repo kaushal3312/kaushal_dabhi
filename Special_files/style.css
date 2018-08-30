@@ -1254,7 +1254,7 @@ body {
 	}
 }
 
-@media (max-width:991px) {
+/*@media (max-width:991px) {
 	.active-1::before {
 		display: none
 	}
@@ -1262,7 +1262,7 @@ body {
 		display: none
 	}
 }
-
+*/
 .navbar.scrolling-navbar {
 	overflow: hidden!important
 }
@@ -1851,7 +1851,7 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-width : 1224px) {
 .demo-1 {
-	background: url(../Special_files/background/pc_bg.jpg);
+	background: url(../Special_files/background/building_skyscraper.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
