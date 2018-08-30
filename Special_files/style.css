@@ -1814,7 +1814,7 @@ and (max-device-width : 480px) {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, .7);
 	background-blend-mode: overlay;
 
 }
@@ -1839,7 +1839,7 @@ and (max-device-width : 1024px) {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, .7);
 	background-blend-mode: overlay;
 
 }
@@ -1884,7 +1884,7 @@ and (min-width : 1824px) {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, .7);
 	background-blend-mode: overlay;
 
 }
