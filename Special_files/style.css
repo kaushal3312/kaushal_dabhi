@@ -1803,7 +1803,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 .demo-1 {
-	background: url(../Special_files/background/abstract-art-black-and-white-125509.jpg);
+	background: url(../Special_files/background/wallpaper2you_64221.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1814,7 +1814,7 @@ and (max-device-width : 480px) {
     -moz-background-size: 100% 100%;
     -o-background-size:  100% 100%;
     background-size:  100% 100%;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
 
 }
@@ -1828,7 +1828,7 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 .demo-1 {
-	background: url(../Special_files/background/uaJeudN.jpg);
+	background: url(../Special_files/background/wallpaper2you_64221.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1851,7 +1851,7 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-width : 1224px) {
 .demo-1 {
-	background: url(../Special_files/background/uaJeudN.jpg);
+	background: url(../Special_files/background/wallpaper2you_64221.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
@@ -1873,7 +1873,7 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
 .demo-1 {
-	background: url(../Special_files/background/uaJeudN.jpg);
+	background: url(../Special_files/background/wallpaper2you_64221.jpg);
 	background-attachment: fixed;
 	background-blend-mode: overlay;
 	background-size:100%; 
