@@ -638,7 +638,7 @@ img {
   width:12px;height:25px;
   margin-top:7px;margin-left:-2px;
   background:#777;
-  background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
+  
   transform:skew(0, 20deg);
   &:first-child{margin-left:10px;}
   &:after{
@@ -675,7 +675,7 @@ img {
   }
 }
 
-/*.loading {
+.loading {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -685,6 +685,7 @@ img {
 	z-index: 9999999
 }
 
+/*
 #totalbase{
 	position: absolute;
 	height: 10px;
@@ -1238,7 +1239,7 @@ box-shadow:0 0 60px 5px black;
 	outline:1px solid black;
 	-webkit-transform:translate(-50%,-11px) rotateX(90deg) translateY(220px) translateZ(-30px);
 }
-*/
+
 
 
 body {
