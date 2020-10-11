@@ -31,7 +31,7 @@ $(function() {
         }, 1e3)
     });
     $(".caption h4 span").typed({
-        strings: [" CREATOR  ", "  ENGINEER ", "  DEVELOPER  " ,"FROM OPEN-SOURCE COMMUNITY" , "  PROGRAMMER  " ,  " AI/ML ENTHUSIAST " , "  GEEK  ", "  TECH FREAK  "],
+        strings: [" DATA ENGINEER ", "  DEVELOPER  " ,"FROM OPEN-SOURCE COMMUNITY" , "  " ,  " AI/ML ENTHUSIAST " , "  GEEK  ", "  TECH FREAK  "],
         loop: true,
         startDelay: 1e3,
         backDelay: 1500,
